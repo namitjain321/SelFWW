@@ -9,9 +9,9 @@ import com.occ.listeners.RetryFailedTests;
 import com.occ.pages.homePage;
 import com.occ.utils.DataProviderUtils;
 
-public final class HomepageTests extends BaseTests{
+public final class HomepageTest extends BaseTest{
 
-	private HomepageTests(){
+	private HomepageTest(){
 	}
 
 	@Test(dataProvider="getData",dataProviderClass=DataProviderUtils.class,retryAnalyzer=RetryFailedTests.class)

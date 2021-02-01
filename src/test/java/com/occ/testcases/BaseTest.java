@@ -7,9 +7,9 @@ import org.testng.annotations.Parameters;
 import com.occ.driver.Driver;
 
 
-public class BaseTests {
+public class BaseTest {
 
-	protected BaseTests(){
+	protected BaseTest(){
 
 	}
 
