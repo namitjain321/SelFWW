@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49056" started-at="2021-01-29T15:39:58Z" finished-at="2021-01-29T15:40:47Z">
+    <groups>
+    </groups>
+    <test name="TestOOTB" duration-ms="49056" started-at="2021-01-29T15:39:58Z" finished-at="2021-01-29T15:40:47Z">
+      <class name="com.occ.testcases.HomepageTests">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.occ.testcases.HomepageTests@4dfa3a9d]" name="setUp" is-config="true" duration-ms="16454" started-at="2021-01-29T21:09:59Z" finished-at="2021-01-29T21:10:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CreateAccountduplicateemail(java.util.Map)[pri:0, instance:com.occ.testcases.HomepageTests@4dfa3a9d]" name="CreateAccountduplicateemail" duration-ms="5626" started-at="2021-01-29T21:10:15Z" data-provider="getData" finished-at="2021-01-29T21:10:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=CreateAccountduplicateemail, LNAME=Jain, PASSWORD=qwerty123, CONFIRMPASSWORD=qwerty123, PHONE=9891404960, EMAIL=dg167j2d@aol.com, FNAME=Namit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountduplicateemail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.occ.testcases.HomepageTests@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1411" started-at="2021-01-29T21:10:21Z" finished-at="2021-01-29T21:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.occ.testcases.HomepageTests@4dfa3a9d]" name="setUp" is-config="true" duration-ms="15703" started-at="2021-01-29T21:10:23Z" finished-at="2021-01-29T21:10:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CreateAccountIncorrectemail(java.util.Map)[pri:0, instance:com.occ.testcases.HomepageTests@4dfa3a9d]" name="CreateAccountIncorrectemail" duration-ms="6708" started-at="2021-01-29T21:10:38Z" data-provider="getData" finished-at="2021-01-29T21:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=CreateAccountIncorrectemail, LNAME=Jain-2, PASSWORD=qwerty123, CONFIRMPASSWORD=qwerty123, PHONE=9891404960-2, EMAIL=test, FNAME=Namit-2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountIncorrectemail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.occ.testcases.HomepageTests@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1756" started-at="2021-01-29T21:10:45Z" finished-at="2021-01-29T21:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.occ.testcases.HomepageTests -->
+    </test> <!-- TestOOTB -->
+  </suite> <!-- Suite -->
+</testng-results>
