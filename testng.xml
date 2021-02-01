@@ -5,7 +5,7 @@
 <listener class-name="com.occ.listeners.MethodInterceptor"/>
 <listener class-name="com.occ.listeners.Listeners"/>
 </listeners>
-  <test name="TestOOTB">
+  <test name="TestOOTBNEW">
   <parameter name = "Browser" value="firefox"/>
     <classes>
       <class name="com.occ.testcases.HomepageTests"/>
