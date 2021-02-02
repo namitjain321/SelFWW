@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteNEW]">
+  <parameter name="Browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.occ.listeners.MethodInterceptor"/>
+    <listener class-name="com.occ.listeners.Listeners"/>
+  </listeners>
+  <test name="TestOOTBNEW(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.occ.testcases.HomepageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="CreateAccountduplicateemail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.occ.testcases.HomepageTest -->
+    </classes>
+  </test> <!-- TestOOTBNEW(failed) -->
+</suite> <!-- Failed suite [SuiteNEW] -->
