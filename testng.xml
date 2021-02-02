@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="SuiteNEW">
 <listeners>
 <listener class-name="com.occ.listeners.MethodInterceptor"/>
@@ -8,7 +8,7 @@
   <test name="TestOOTBNEW">
   <parameter name = "Browser" value="firefox"/>
     <classes>
-      <class name="com.occ.testcases.HomepageTests"/>
+      <class name="com.occ.testcases.HomepageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
