@@ -20,7 +20,6 @@ public final class HomepageTest extends BaseTest{
 		boolean result=new homePage()
 				.clickCreateAccount()
 				.EnterAccountInfo(DataMap.get("FNAME").toString(), DataMap.get("LNAME").toString(), DataMap.get("EMAIL").toString(), DataMap.get("PHONE").toString(), DataMap.get("PASSWORD").toString(), DataMap.get("CONFIRMPASSWORD").toString()).logoutButtonExits();
-		System.out.println("DUP"+result);
 		Assertions.assertThat(result)
 		.isEqualTo(false);
 	}
