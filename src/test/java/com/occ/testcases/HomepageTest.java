@@ -16,7 +16,7 @@ public final class HomepageTest extends BaseTest{
 
 	@Test(dataProvider="getData",dataProviderClass=DataProviderUtils.class,retryAnalyzer=RetryFailedTests.class)
 		public void CreateAccountduplicateemail(Map<Object, Object> DataMap){
-		System.out.println("Current thread is:: "+Thread.currentThread());
+		System.out.println("Current thread is: "+Thread.currentThread());
 		boolean result=new homePage()
 				.clickCreateAccount()
 				.EnterAccountInfo(DataMap.get("FNAME").toString(), DataMap.get("LNAME").toString(), DataMap.get("EMAIL").toString(), DataMap.get("PHONE").toString(), DataMap.get("PASSWORD").toString(), DataMap.get("CONFIRMPASSWORD").toString()).logoutButtonExits();
