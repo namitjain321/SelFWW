@@ -17,11 +17,13 @@ public class BaseTest {
 	@BeforeMethod
 	@Parameters("Browser")
 	protected void setUp(String BrowserValue) throws Exception{
-		Driver.initialize(BrowserValue);
+		System.out.println("(Base Test SETUP METHOD )Current thread is : "+Thread.currentThread());
+		//Driver.initialize(BrowserValue);
 	}
 
 	@AfterMethod
 	protected void tearDown(){
+		System.out.println("(Base Test TearDown METHOD )Current thread is : "+Thread.currentThread());
 		Driver.quit();
 	}
 

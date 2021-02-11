@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="SuiteNEW">
+<suite name="SuiteNEW" parallel="methods" thread-count="2">
 <listeners>
 <listener class-name="com.occ.listeners.MethodInterceptor"/>
 <listener class-name="com.occ.listeners.Listeners"/>
 </listeners>
-  <test name="TestOOTBNEW">
+  <test name="TestOOTBNEW" parallel="methods" thread-count="2">
   <parameter name = "Browser" value="firefox"/>
     <classes>
       <class name="com.occ.testcases.HomepageTest"/>

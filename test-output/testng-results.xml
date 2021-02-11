@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="SuiteNEW" duration-ms="23095" started-at="2021-02-02T09:42:25Z" finished-at="2021-02-02T09:42:48Z">
+  <suite name="SuiteNEW" duration-ms="893" started-at="2021-02-11T06:41:43Z" finished-at="2021-02-11T06:41:44Z">
     <groups>
     </groups>
-    <test name="TestOOTBNEW" duration-ms="23095" started-at="2021-02-02T09:42:25Z" finished-at="2021-02-02T09:42:48Z">
+    <test name="TestOOTBNEW" duration-ms="893" started-at="2021-02-11T06:41:43Z" finished-at="2021-02-11T06:41:44Z">
       <class name="com.occ.testcases.HomepageTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="setUp" is-config="true" duration-ms="16607" started-at="2021-02-02T15:12:26Z" finished-at="2021-02-02T15:12:42Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="setUp" is-config="true" duration-ms="4" started-at="2021-02-11T12:11:44Z" finished-at="2021-02-11T12:11:44Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="CreateAccountduplicateemail(java.util.Map)[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="CreateAccountduplicateemail" duration-ms="4085" started-at="2021-02-02T15:12:42Z" data-provider="getData" finished-at="2021-02-02T15:12:46Z">
+        <test-method status="PASS" signature="CreateAccountduplicateemail(java.util.Map)[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="CreateAccountduplicateemail" duration-ms="15" started-at="2021-02-11T12:11:44Z" data-provider="getData" finished-at="2021-02-11T12:11:44Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateAccountduplicateemail -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="tearDown" is-config="true" duration-ms="1468" started-at="2021-02-02T15:12:46Z" finished-at="2021-02-02T15:12:48Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="tearDown" is-config="true" duration-ms="2" started-at="2021-02-11T12:11:44Z" finished-at="2021-02-11T12:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CreateAccountIncorrectemail(java.util.Map)[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="CreateAccountIncorrectemail" duration-ms="2" started-at="2021-02-11T12:11:44Z" data-provider="getData" finished-at="2021-02-11T12:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Test Case Name=CreateAccountIncorrectemail, LNAME=Jain-2, PASSWORD=qwerty123, CONFIRMPASSWORD=qwerty123, PHONE=9891404960-2, EMAIL=test, FNAME=Namit-2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccountIncorrectemail -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="setUp" is-config="true" duration-ms="0" started-at="2021-02-11T12:11:44Z" finished-at="2021-02-11T12:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.occ.testcases.HomepageTest@5ccddd20]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-11T12:11:44Z" finished-at="2021-02-11T12:11:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

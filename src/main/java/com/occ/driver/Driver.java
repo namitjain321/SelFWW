@@ -14,6 +14,7 @@ public final class Driver {
 	public static void initialize(String BrowserName) throws Exception{
 		
 		if(Objects.isNull(DriverManager.getDriver())){
+			System.out.println("(Driver class Initialize METHOD )Current thread is : "+Thread.currentThread());
 				DriverManager.setDriver(DriverFactory.DriverRetrun(BrowserName));
 				DriverManager.getDriver().get(ConfigPropertiesUtils.getValue(configProperties.URL));
 			}

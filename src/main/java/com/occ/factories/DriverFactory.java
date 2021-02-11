@@ -6,13 +6,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class DriverFactory {
+public final class DriverFactory {
 
+	private DriverFactory(){
+		
+	}
 	//static WebDriver driver;
 	public static WebDriver DriverRetrun(String BrowserName){
+		System.out.println("(Driver factory class driver return METHOD )Current thread is : "+Thread.currentThread());
 		WebDriver driver=null;
 		if(BrowserName.equalsIgnoreCase("firefox")){
-				System.out.println("INSIDE FF");
 				WebDriverManager.firefoxdriver().setup();
 				driver=new FirefoxDriver();
 			}
